@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Bond Web Service Demo</title>
+<title>Seattle Local Artists</title>
 <link rel="stylesheet" href="css/bond.css" />
 <style>
 body {font-family:georgia;}
@@ -16,9 +16,9 @@ function serverSetup(server,cat){
        url = "api.php?cat=" + cat;
    }else{//server is HTML only - simulate web service
        if(cat == "box"){//box office
-           url = "data/bond-box-office.js";
+           url = "data/local-artists.js";
        }else{//year
-           url = "data/bond-year.js"; 
+           url = "data/local-artists.js"; 
        }
    }
    return url;
@@ -100,9 +100,9 @@ function bondJSON(data){
 </script>
 </head>
 	<body>
-	<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
+	<h1>Local Artists web service</h1>
+		<a href="year" class="category">Albums By Year</a><br />
+		<a href="box" class="category">Artists numbered 1 through 10</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
 		</div>
