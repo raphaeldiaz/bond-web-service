@@ -1,12 +1,12 @@
 {
-	"title"; "Trending Local Artists",
-	"films";[
+	"title": "Trending Local Artists",
+	"films":[
 			  {
 				"Number":1,
 				"Name": "Lil Mosey",
 				"Genre":"Hip Hop",
 				"Age": "19",
-				"Latest Album":"Certified Hitmaker",
+				"Album":"Certified Hitmaker",
 				"Year":2019,
 				"Image":"Lil-mosey.jpg"
 			  },
@@ -15,7 +15,7 @@
 				"Name": "Raz Simone",
 				"Genre":"Hip hop/R&B",
 				"Age": "31",
-				"Latest Album":"5 Good Reasons",
+				"Album":"5 Good Reasons",
 				"Year":2020,
 				"Image":"Raz-simone.jpg"
 			  },
@@ -24,7 +24,7 @@
 				"Name": "Ghoulavelii",
 				"Genre":"Punk Rap/Rock",
 				"Age": "24",
-				"Latest Album":"Ariesrevenge (Deluxe)",
+				"Album":"Ariesrevenge (Deluxe)",
 				"Year":2020,
 				"Image":"Ghoulavelii.png"
 			  },
@@ -33,7 +33,7 @@
 				"Name": "Leebo",
 				"Genre":"Alternative",
 				"Age": "26",
-				"Latest Album":"Calm Before the Storm",
+				"Album":"Calm Before the Storm",
 				"Year":2019,
 				"Image":"Leebo.jpg"
 			  },
@@ -42,7 +42,7 @@
 				"Name": "Isaac Jacuzzi",
 				"Genre":"Raggae/Hip Hop",
 				"Age": "23",
-				"Latest Album":"Till it's Over",
+				"Album":"Till it's Over",
 				"Year":2020,
 				"Image":"Isaac.jpg"
 			  },
@@ -51,7 +51,7 @@
 				"Name": "Zayside",
 				"Genre":"Hip Hop",
 				"Age": "22",
-				"Latest Album":"Hottest Out the E",
+				"Album":"Hottest Out the E",
 				"Year":2020,
 				"Image":"Zayside.jpg"
 			  },
@@ -60,7 +60,7 @@
 				"Name": "Travis Thompson",
 				"Genre":"Hip Hop/Rap",
 				"Age": "22",
-				"Latest Album":"Reckless Endangerment",
+				"Album":"Reckless Endangerment",
 				"Year":2019,
 				"Image":"Travis.jpg"
 			  },
@@ -69,7 +69,7 @@
 				"Name": "K.o.D",
 				"Genre":"Hip Hop",
 				"Age": "26",
-				"Latest Album":"Vice City",
+				"Album":"Vice City",
 				"Year":2018,
 				"Image":"Vice.jpg"
 			  },
@@ -78,7 +78,7 @@
 				"Name": "Kateel",
 				"Genre":"Hip Hop/Rap",
 				"Age": "21",
-				"Latest Album":"Mind Over Matters (Deluxe)",
+				"Album":"Mind Over Matters (Deluxe)",
 				"Year":2020,
 				"Image":"Kateel.jpg"
 			  },
@@ -87,7 +87,7 @@
 				"Name": "iLL Chris",
 				"Genre":"Hip Hop/Rap",
 				"Age": "30",
-				"Latest Album":"ViLLAINS",
+				"Album":"ViLLAINS",
 				"Year":2021,
 				"Image":"Villains.jpg"
 			  }

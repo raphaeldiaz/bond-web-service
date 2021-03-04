@@ -18,7 +18,7 @@ function serverSetup(server,cat){
        if(cat == "box"){//box office
            url = "data/local-artists.js";
        }else{//year
-           url = "data/local-artists.js"; 
+           url = "data/local-artist-year.js"; 
        }
    }
    return url;
@@ -81,15 +81,14 @@ function bondJSON(data){
    $.each(data.films,function(i,item){   
 		let text = `
 		
-            <b>Title</b>: ${item.Title}<br />
-            <b>Film #</b>: ${item.Film}<br />
+            <b>Number</b>: ${item.Number}<br />
+            <b>Name</b>: ${item.Name}<br />
+            <b>Genre</b>: ${item.Genre}<br />
+            <b>Age</b>: ${item.Age}<br />
+            <b>Album</b>: ${item.Album}<br />
             <b>Year</b>: ${item.Year}<br />
-            <b>Bond</b>: ${item.Bond}<br />
-            <b>Box Office</b>: ${item.BoxOffice}<br />
-            <b>Writers</b>: ${item.Writers}<br />
-            <div class="pic"><img src="thumbnails/${item.Image}"/></div>
+            <div class="pic"><img src="images/${item.Image}"/></div>
             </div>
-
 		`;
 		$("<div></div>").html(text).appendTo("#films");
 
@@ -101,7 +100,7 @@ function bondJSON(data){
 </head>
 	<body>
 	<h1>Local Artists web service</h1>
-		<a href="data/local-artists.js" class="category">Albums By Year</a><br />
+		<a href="year" class="category">Albums By Year</a><br />
 		<a href="box" class="category">Artists numbered 1 through 10</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
